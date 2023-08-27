@@ -1,12 +1,17 @@
 body {
   background-color: #555555;
   background-image: url("images/tileDevTexR2.bmp");
-  margin: 10px auto;
-  max-width: 600pt;
+  margin: 10pt auto;
+  width: 600pt;
   background-blend-mode: multiply;
-  background-size: 100px 100px;
+  background-size: 80pt 80pt;
 }
 
+hr{
+  border: 1px solid rgb(48, 52, 54);
+  color:grey;
+
+}
 
 h.title{
   font-family: 'Helvetica';
@@ -18,19 +23,21 @@ h.listname{
   font-family: 'Helvetica';
   font-size: 20pt;
   display: block;
-  margin-top: 10px;
+  margin-top: 10pt;
   color: white;
 }
 
 p.about{
+  font-family: 'mononoki';
   display: inline;
+  font-size: 12pt;
   color: grey;
 }
 p.about2{
-  font-size: 20pt;
+  font-family: 'mononoki';
+  font-size: 12pt;
   color: grey;
-  display: block;
-  margin-top: 10px;
+  margin-top: 10pt;
 }
 p.bottomtext{
   display: inline;
@@ -50,35 +57,35 @@ div.layer1{
 
 
 div.layer2 {
-  font-size: 15pt;
+  
   text-align: start;
   width: 40%;
-  display: inline-block;
   float: left;
 }
 
 div.layer3 {
-  font-size: 15pt;
-  font-family: 'mononoki';
-  color: #DCDCDC;
   width: 40%;
-  display: inline-block;
   float: right;
 }
 
 div.mainwrap {
-  width: 100%;
-  height: 500px;
+  display: flex;
+  justify-content: space-between;
 }
 
-div.layer4 {
+div.layer4{
+text-align: center;
+margin-top: 10pt;
+}
+
+div.layer5 {
   font-size: 15pt;
   font-family: 'mononoki';
   color: #DCDCDC;
   position: absolute;
-  bottom:0px;
-  margin: 10px auto;
-  width: 98%;
+  bottom:0pt;
+  margin: 10pt auto;
+  width: 600pt;
 }
 
 ul.list {
