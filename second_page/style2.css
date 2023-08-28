@@ -1,6 +1,6 @@
 body {
   background-color: #555555;
-  background-image: url("images/tileDevTexR2.bmp");
+  background-image: url("/images/tileDevTexR2.bmp");
   margin: 10pt auto;
   width: 600pt;
   background-blend-mode: multiply;
