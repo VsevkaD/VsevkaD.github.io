@@ -10,7 +10,6 @@ body {
 hr{
   border: 1px solid rgb(48, 52, 54);
   color:grey;
-
 }
 
 h.title{
@@ -32,6 +31,7 @@ p.about{
   display: inline;
   font-size: 12pt;
   color: grey;
+
 }
 p.about2{
   font-family: 'mononoki';
@@ -49,6 +49,10 @@ a{
   font-family: 'mononoki';
   color: #DCDCDC;
   font-size: 15pt;
+}
+
+img {
+  border-radius: 2%;
 }
 
 div.layer1{
