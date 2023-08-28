@@ -69,3 +69,7 @@ div.layer5 {
 a:link {text-decoration:underline dotted;}
 a:visited {}
 a:hover {text-decoration:underline}
+
+a.main_link:link {text-decoration:none;}
+a.main_link:visited {}
+a.main_link:hover {text-decoration:underline;}
